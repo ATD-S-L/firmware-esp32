@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest an enhancement for the firmware
+title: "[FEATURE] "
+labels: ["enhancement"]
+
+body:
+  - type: markdown
+    attributes:
+      value: "Share your feature ideas!"
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Describe the feature or enhancement you'd like to see"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: "Why would this feature be useful? What problem does it solve?"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: "Describe how you'd like this feature to work (optional)"
+  
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: "Any alternative approaches you've considered?"
+  
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: "Any other context or information?"
